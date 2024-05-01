@@ -1,1 +1,186 @@
+/*Frame1*/
+.wrapper {
+    position: relative;
+    width: 900px;
+    height: 800px;
+    
+    background: url(pexels-aronvisuals-1643113.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
 
+/* Frame 2 */
+header {
+    position: absolute;
+    width: 900px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(237, 182, 251, 0.45);
+    border-radius: 10px;
+}
+
+
+/* The hobbies showcase */
+h1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 547px;
+    height: 68px;
+    left: 180px;
+    top: 11px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+main section {
+    position: absolute;
+    width: 525px;
+    height: 188px;
+    left: 188px;
+    top: 119px;
+
+    background: rgba(237, 182, 251, 0.58);
+    border-radius: 10px;
+}
+
+/* Frame 8 
+
+position: absolute;
+width: 500px;
+height: 90px;
+left: 200px;
+top: 337px;
+
+background: linear-gradient(90deg, #7A2582 0%, #A881AB 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+
+
+/* Video Games 
+
+position: absolute;
+width: 400px;
+height: 82px;
+left: 50px;
+top: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Frame 9 
+
+position: absolute;
+width: 500px;
+height: 90px;
+left: 200px;
+top: 472px;
+
+background: linear-gradient(90deg, #7A2582 0%, #A881AB 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+
+
+/* Instruments 
+
+position: absolute;
+width: 400px;
+height: 82px;
+left: 50px;
+top: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Frame 10 
+
+position: absolute;
+width: 500px;
+height: 90px;
+left: 200px;
+top: 607px;
+
+background: linear-gradient(90deg, #7A2582 0%, #A881AB 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+
+
+/* Hobbies Graveyard 
+
+position: absolute;
+width: 400px;
+height: 82px;
+left: 50px;
+top: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+
+/* *introduction, explanation* 
+
+position: absolute;
+width: 492px;
+height: 156px;
+left: 15px;
+top: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+*/
