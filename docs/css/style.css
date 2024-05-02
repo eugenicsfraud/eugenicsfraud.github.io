@@ -88,7 +88,6 @@ main article {
 .buttons {
     display: flex;
     flex-direction: column;
-    height: 500;
     width: 500px;
     margin-left: 200px;
     align-items: center;
