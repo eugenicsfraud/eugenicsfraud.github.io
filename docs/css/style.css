@@ -60,9 +60,10 @@ h1 {
 
 main article {
     position: absolute;
-    width: 525px;
+    width: fit-content;
     height: fit-content;
-    left: 188px;
+    margin-left: 100px;
+    margin-right: 100px;
     top: 119px;
     margin-top: 40px;
     text-align: center;
@@ -181,6 +182,7 @@ footer {
 .description p {
     width: 150px;
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .description a {
@@ -191,7 +193,104 @@ footer {
     color: #A881AB;
 }
 
+.container {
+    display: flex;
+    margin-top: 200px;
+    width: 700px;
+    margin-left: 100px;
+}
 
+.box {
+    border-radius: 10px;
+    width: 50%; 
+    padding: 30px;
+    box-sizing: border-box;
+    background: rgba(237, 182, 251, 0.58);
+}
+
+.carousel {
+    height: 200px;
+    overflow: hidden;
+    background: rgba(237, 182, 251, 0.58);
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.prev-btn-one{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgb(248, 3, 207);
+    font-size: xx-large;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.next-btn-one {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgb(248, 3, 207);
+    font-size: xx-large;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    margin-left: 230px;
+    margin-top: 25px;
+}
+.prev-btn-one:hover,
+.next-btn-one:hover {
+    color: #000000;
+}
+
+.prev-btn-two{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgb(248, 3, 207);
+    font-size: xx-large;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.next-btn-two {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgb(248, 3, 207);
+    font-size: xx-large;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    margin-left: 230px;
+    margin-top: 25px;
+}
+
+.next-btn-two:hover,
+.prev-btn-two:hover {
+    color: #ffffff;
+}
 /* 
 .button {
     position: absolute;
